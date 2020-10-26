@@ -1,1 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2020-10-26T09:02:26.086Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" version="13.8.1" etag="98A-hzdDf2f-kdEe-JZq" type="github"><diagram id="e3kDFs8t1NA5hozapq4e">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-26T09:36:30.735Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="_Zn6QntSMAPfcgFve5RG" version="13.8.1" type="github">
+  <diagram id="e3kDFs8t1NA5hozapq4e" name="Page-1">
+    <mxGraphModel dx="946" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="680" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-2" value="edgeGateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-3" value="tunnel server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-5" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="59" y="440" width="740" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="EseYH3Ga1ECSR6PqHBBf-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="146.5" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-7" value="6. 127.0.0.1:&amp;lt;container-port&amp;gt;/rest/of/path" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EseYH3Ga1ECSR6PqHBBf-6">
+          <mxGeometry x="-0.1467" y="-1" relative="1" as="geometry">
+            <mxPoint x="114.5" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-8" value="service stream" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="99" y="550" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-9" value="node1" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="39" y="565" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-12" value="service stream" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="619" y="550" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-13" value="node2" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="559" y="565" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-14" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="EseYH3Ga1ECSR6PqHBBf-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="159" y="550" as="sourcePoint" />
+            <mxPoint x="489" y="362" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-15" value="1. edgecore启动时创建 WebSocket连接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EseYH3Ga1ECSR6PqHBBf-14">
+          <mxGeometry x="-0.3775" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-18" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EseYH3Ga1ECSR6PqHBBf-12" target="EseYH3Ga1ECSR6PqHBBf-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="406.5" y="560" as="sourcePoint" />
+            <mxPoint x="489" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-19" value="WebSocket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EseYH3Ga1ECSR6PqHBBf-18">
+          <mxGeometry x="-0.3394" y="3" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-25" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=0.5;exitY=0.975;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="EseYH3Ga1ECSR6PqHBBf-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="397" y="128" as="sourcePoint" />
+            <mxPoint x="149" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-37" value="3. curl host:18080/&amp;lt;ns&amp;gt;/&amp;lt;svc&amp;gt;/rest/of/path" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EseYH3Ga1ECSR6PqHBBf-25">
+          <mxGeometry x="-0.4417" y="2" relative="1" as="geometry">
+            <mxPoint x="109.44" y="13.04" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-31" value="2. 监听该wss" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="520" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-33" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EseYH3Ga1ECSR6PqHBBf-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="570" as="sourcePoint" />
+            <mxPoint x="250" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-38" value="4. 解析url，查询k8s, 执行LB策略&lt;br&gt;根据hostip key 查询wss" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="360" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-40" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="EseYH3Ga1ECSR6PqHBBf-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="204" y="585" as="sourcePoint" />
+            <mxPoint x="460" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EseYH3Ga1ECSR6PqHBBf-42" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;5. 产生sessionid 将请求&lt;/span&gt;&lt;br style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;写入wss&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EseYH3Ga1ECSR6PqHBBf-40">
+          <mxGeometry x="0.0199" y="-2" relative="1" as="geometry">
+            <mxPoint x="15.059999999999999" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
