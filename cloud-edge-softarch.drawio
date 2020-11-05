@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T02:20:27.618Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Dqo2XYT8UxvqGjG7iug0" version="13.8.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-05T02:25:48.948Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="z_OTnGYQ3nIsFM7WumNq" version="13.8.8" type="github" pages="3">
   <diagram id="DAFPHoVdk3YulrqNeCpr" name="Page-1">
     <mxGraphModel dx="946" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -204,54 +204,6 @@
       <root>
         <mxCell id="msdkebxMWvLPw_NlSIgo-0" />
         <mxCell id="msdkebxMWvLPw_NlSIgo-1" parent="msdkebxMWvLPw_NlSIgo-0" />
-        <mxCell id="msdkebxMWvLPw_NlSIgo-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="msdkebxMWvLPw_NlSIgo-1" vertex="1">
-          <mxGeometry x="80" y="80" width="400" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="msdkebxMWvLPw_NlSIgo-3" value="节点接入" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="msdkebxMWvLPw_NlSIgo-1" vertex="1">
-          <mxGeometry x="210" y="270" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="msdkebxMWvLPw_NlSIgo-4" value="集群管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="msdkebxMWvLPw_NlSIgo-1" vertex="1">
-          <mxGeometry x="100" y="270" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="msdkebxMWvLPw_NlSIgo-5" value="应用管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="msdkebxMWvLPw_NlSIgo-1" vertex="1">
-          <mxGeometry x="100" y="90" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="msdkebxMWvLPw_NlSIgo-6" value="多集群调度" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="msdkebxMWvLPw_NlSIgo-1" vertex="1">
-          <mxGeometry x="210" y="90" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="msdkebxMWvLPw_NlSIgo-7" value="计量计费" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="msdkebxMWvLPw_NlSIgo-1" vertex="1">
-          <mxGeometry x="330" y="90" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="msdkebxMWvLPw_NlSIgo-8" value="跨集群服务发现" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="msdkebxMWvLPw_NlSIgo-1" vertex="1">
-          <mxGeometry x="330" y="270" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="msdkebxMWvLPw_NlSIgo-9" value="服务质量监控" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="msdkebxMWvLPw_NlSIgo-1" vertex="1">
-          <mxGeometry x="100" y="180" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="msdkebxMWvLPw_NlSIgo-10" value="边缘服务发现" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="msdkebxMWvLPw_NlSIgo-1" vertex="1">
-          <mxGeometry x="210" y="180" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="msdkebxMWvLPw_NlSIgo-11" value="副本扩缩容" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="msdkebxMWvLPw_NlSIgo-1" vertex="1">
-          <mxGeometry x="330" y="180" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="msdkebxMWvLPw_NlSIgo-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="msdkebxMWvLPw_NlSIgo-1" vertex="1">
-          <mxGeometry x="510" y="210" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="msdkebxMWvLPw_NlSIgo-16" value="未实现" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="msdkebxMWvLPw_NlSIgo-1" vertex="1">
-          <mxGeometry x="550" y="215" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="msdkebxMWvLPw_NlSIgo-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="msdkebxMWvLPw_NlSIgo-1" vertex="1">
-          <mxGeometry x="510" y="250" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="msdkebxMWvLPw_NlSIgo-18" value="已实现" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="msdkebxMWvLPw_NlSIgo-1" vertex="1">
-          <mxGeometry x="550" y="255" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="msdkebxMWvLPw_NlSIgo-19" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="msdkebxMWvLPw_NlSIgo-1" vertex="1">
-          <mxGeometry x="510" y="290" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="msdkebxMWvLPw_NlSIgo-20" value="开发中" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="msdkebxMWvLPw_NlSIgo-1" vertex="1">
-          <mxGeometry x="550" y="295" width="50" height="20" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
